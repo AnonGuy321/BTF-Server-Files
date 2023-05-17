@@ -1,0 +1,189 @@
+@font-face {
+    font-family: "Beba";
+    src: url(../fonts/BebasNeue-Regular.ttf);
+}
+
+body {
+    overflow: hidden;
+}
+
+.wrapper {
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    width: 103%;
+    height: 90%;
+    top: 0;
+    left: 0;
+
+}
+
+.container {
+    position: relative;
+    width: 70%;
+    height: 90%;
+    background-color: rgba(19, 18, 18, 0.55);
+}
+
+.header {
+    position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+    width: -102%;
+    height: 10%;
+}
+
+.header div {
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 143%;
+}
+
+.header div h2 {
+    color: white;
+    font-size: 2.5vh;
+    font-family: "Beba";
+}
+
+.data {
+	position: relative;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
+	flex-direction: column;
+	width: 70%;
+	height: 75%;
+}
+
+.bottom-bar {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+  }
+  
+.data div {
+	position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+	width: 70%;
+	height: 33.3%;
+}
+
+.server-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e6e6e6;
+    font-size: 1.9vh;
+    font-family: "Beba";
+}
+
+.server-status {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.server-status div {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #e6e6e6;
+    font-size: 1.9vh;
+    font-family: "Beba";
+}
+
+.server-status div img {
+    width: 2vh;
+    height: 1vh;
+}
+
+.players-type {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.players-type div {
+    display: fixed;
+    justify-content: center;
+    align-items: center;
+    width: 42.3%;
+    height: 0.2%;
+    color: #e6e6e6;
+    font-size: 1.5vh;
+    font-family: "Beba";
+}
+
+.players {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 100%; /* Changed from auto to 100% */
+    overflow-y: auto;
+    max-height: 300px; /* Remove this line */
+  }
+
+  
+  /* Scroll Bar */
+  .players::-webkit-scrollbar {
+    width: 0.6vh;
+  }
+  
+  .players::-webkit-scrollbar-track {
+    border-radius: 0;
+    background-color: #555;
+  }
+  
+  .players::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 0.2vh;
+  }
+  
+  .players::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
+
+.players div {
+    position: relative;
+    display: flex;
+    justify-content: space-around; /* Changed from flex-start to space-around */
+    align-items: center;
+    flex-flow: column nowrap;
+    width: 100%; /* Adjusted to 100% for better display */
+    height: auto; /* Changed to auto for dynamic height */
+    padding: 0px; /* Added padding */
+    background-color: rgba(0, 0, 0, 0.664); /* Adding a background color */
+    margin-bottom: 19px; /* Adding some space between player bars */
+    border-radius: 0px; /* Adding border-radius for a better look */
+}
+
+
+.players div span {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #d3d3d3;
+    font-size: 1.5vh;
+    font-family: "Beba";
+    margin: 1%;
+}

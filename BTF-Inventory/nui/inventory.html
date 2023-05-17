@@ -1,0 +1,95 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="inventory.css">
+    <script src="nui://game/ui/jquery.js" type="text/javascript"></script>
+    <script src="./inventory.js"></script>
+</head>
+
+<body>
+    <div style="display: none;" id="MainInventoryContainer">   
+<div id="InventoryLine2"></div>  <div id="InventoryLine3"></div>
+        <h1 class ="InvText">BTF INVENTORY</h1>
+        <div id="InventoryLine"></div>         
+        <div id="PersonalInventorySpaceContainer">
+            <table id="PersonalInventoryTable">
+                <tr style="border-bottom:solid 0.1em #00000009;" id="HeaderTable">
+                    <th>Item Name</th>
+                    <th>Amount</th>
+                    <th>Weight</th>
+                </tr>
+                <tr style="display: none;" class="ItemTable ExampleTable">
+                    <td class="ItemName">AK-47</td>
+                    <td class="ItemQuantity">1</td>
+                    <td class="ItemKG">5kg</td>
+                </tr>
+                <tr class="ItemTable">
+                    <td>AK-47</td>
+                    <td>1</td>
+                    <td>5kg</td>
+                </tr>
+            </table>
+        </div>
+        <div id="SecondInventorySpaceContainer">
+            <h1 id="ndInventoryText">2nd Inventory not available</h1>
+            <table id="SecondaryInventoryTable">
+                <tr style="border-bottom:solid 0.1em #ff000000;" id="HeaderTable2">
+                        <th>Item Name</th>
+                        <th>Amount</th>
+                        <th>Weight</th>
+                    </tr>
+                    <th></th>
+                    <th></th>
+                    <th></th>
+                </tr>
+                <tr style="display: none;" class="ItemSecondTable ExampleSecondTable">
+                    <td class="ItemName">AK-47</td>
+                    <td class="ItemQuantity">1</td>
+                    <td class="ItemKG">5kg</td>
+                </tr>
+            </table>
+        </div>
+        <div style="    width: 17em;
+        position: fixed;
+        text-align: center;
+        height: 0.1em;
+        left: 16em;
+        top: 2.1em;">
+            <span id="PersonalInventoryWeight">Weight 0/30kg</span>
+        </div>
+        <div style=" width: 17em;
+        position: fixed;
+        text-align: center;
+        height: 0.2em;
+        left: 55em;
+        top: 2.1em;">
+            <span id="SecondInventoryWeight">Weight 0/30kg</span>
+        </div>
+        <div id="ButtonRow1">
+            <div id="UseBtn">
+                <span>USE</span>
+            </div>
+            <!-- <div id="UseAllBtn">
+                <span>Use ALL</span>
+            </div> -->
+            <div id="MoveBtn">
+                <span>MOVE</span>
+            </div>
+            <div id="MoveXBtn">
+                <span style="top: 1em;">MOVE X</span>
+            </div>
+            <div id="MoveAllBtn">
+                <span style="top: 1em;">MOVE ALL</span>
+            </div>
+            <div id="GiveBtn">
+                <span>GIVE</span>
+            </div>
+            <div id="DropBtn">
+                <span>TRASH</span>
+            </div>
+        </div>
+        <span id="InventoryText">[Press L to Close]</span>
+    </div>
+</body>
+
+</html>

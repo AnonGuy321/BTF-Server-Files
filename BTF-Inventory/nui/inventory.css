@@ -1,0 +1,262 @@
+/* THIS IS MADE MY EVN / E v n#9999 on discord
+who ever steals this and puts it in there server is a tramp
+I worked hard on this nui faggots */
+
+body {
+    margin: 0;
+    user-select: none;
+}
+
+#MainInventoryContainer {
+    width: 70em;
+    height: 35.5em;
+    background: #0c0c0caf;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    /* border: solid 0.1em #0051ff; */
+    /* border-radius: 10px; */
+    transform: translate(-50%, -50%);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,800;1,100;1,200&display=swap');
+#PersonalInventorySpaceContainer {
+    background-color: #000000a1;
+    position: relative;
+    top: -2.7em;
+    left: 1.8em;
+    width: 27em;
+    height: 30em;
+    bottom: 23em;
+}
+
+#SecondInventorySpaceContainer {
+    background-color: #000000a1;
+    position: relative;
+    top: -32.7em;
+    left: 41.5em;
+    width: 26em;
+    height: 30em;
+    bottom: 27em;
+}
+
+
+
+@font-face {
+    font-family: inventoryFont;
+    src: url(./assets/pricedown.otf);
+}
+@font-face {
+    font-family: beba;
+    src: url(./assets/Roboto-Medium.ttf);
+}
+@font-face {
+    font-family: beba;
+    src: url(./assets/Roboto-Medium.ttf);
+}
+
+#ButtonRow1 {
+    width: 6em;
+    height: auto;
+    position: relative;
+    bottom: 62.1em;
+    left: 29.8em;
+    float: left;
+}
+#ButtonRow2 {
+    width: 6em;
+    height: auto;
+    position: relative;
+    bottom: 64.2em;
+    left: 29.8em;
+    float: left;
+}
+
+#ButtonRow1>div {
+    width: 8.5em;
+    height: 3.4em;
+    float: left;
+    margin-left: 1.1em;
+    margin-bottom: 1em;
+    background-color: #000000af;
+    border: solid 0.3em #00000000;
+    text-align: center;
+    justify-content: center;
+}
+
+.InvText{
+    font-family: 'inventoryFont', sans-serif;
+    position: relative;
+    font-size: 35px;
+    top: -13%;
+    left: 0.3em;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+#ButtonRow1>div:hover {
+    background-color: #ffff84b4;
+}
+
+#ButtonRow1>div>span {
+    color: rgb(255, 255, 255);
+    font-family: 'inventoryFont2', sans-serif;
+    position: relative;
+    font-size: 1.0em;
+    top: 1.3em;
+}
+
+
+#InventoryLine {
+    width: 100%;
+    background: #ffff84d7;
+    height: 0.6em;
+    position: relative;
+    left: 0.01em;
+    top: -5.3em;
+}
+#InventoryLine2 {
+    width: 100%;
+    background: #13131300;
+    height: 1em;
+    position: fixed;
+    left: 0.01em;
+    top: -6em;
+}
+#InventoryLine3 {
+    width: 100%;
+    background: #020202f5;
+    height: 4.2em;
+    position: fixed;
+    left: 0.01em;
+    top: -3.3em;
+}
+
+
+#InventoryText {
+    font-family: 'inventoryFont2', sans-serif;
+    color: rgb(255, 255, 255);
+    position: relative;
+    font-size: 13PX;
+    bottom: 39.6em;
+    left: 67em;
+}
+
+#SecondInventoryWeight {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    top: -1.5em;
+    
+}
+
+#PersonalInventoryWeight {
+    color: rgb(255, 255, 255);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+table {
+    font-family: 'beba', sans-serif;
+    width: 100%;
+    height: 1%;
+    color: rgb(255, 255, 255);
+    border-collapse: collapse;
+}
+
+tbody {
+    display: table-header-group;
+}
+
+td {
+    padding: 0.5em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 60;
+    justify-content: center;
+    font-size: 0.9em;
+    border: none;
+}
+
+th {
+    text-align: center;
+}
+
+th {
+    padding: -1em;
+    color: #ffffff;
+    font-family: 'Poppins', sans-serif;
+}
+
+#HeaderTable {
+    height: -3em;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    top: 2em;
+}
+
+#HeaderTable2 {
+    height: -3em;
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    top: 22em;
+}
+
+.InvText2{
+    font-family: 'inventoryFont', sans-serif;
+    position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    left: -4.3em;
+    align-items: center;
+    justify-content: center
+}
+.InvText3{
+    font-family: 'inventoryFont', sans-serif;
+    position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    left: 3.7em;
+    top: -1.6em;
+    align-items: center;
+    justify-content: center
+}
+.InvText4{
+    font-family: 'inventoryFont', sans-serif;
+    position: relative;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    left: 8em;
+    top: -3.3em;
+    align-items: center;
+    justify-content: center
+}
+
+.ItemTable>td {
+    padding-top: 0.0000001m;
+}
+
+.ItemSecondTable>td {
+    padding-top: 0.5em;
+}
+
+.ItemSelected {
+    border: none;
+    background-color: #ffff84b4;
+}
+
+#ndInventoryText {
+    position: fixed;
+    color: #ffffff6e;
+    font-family: 'beba', sans-serif;
+    font-size: 1.2em;
+    opacity: 0.6;
+    top: 13.3em;
+    left: 39.5em;
+    width: 52em;
+}

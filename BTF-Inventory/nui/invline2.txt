@@ -1,0 +1,8 @@
+#InventoryLine2 {
+    width: 281%;
+    background: #02020265;
+    height: 4.6em;
+    position: relative;
+    left: -3em;
+    top: -14em;
+}

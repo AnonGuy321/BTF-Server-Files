@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap');
+
+html, body {
+    margin: 0;
+    padding: 6px;
+    overflow: hidden;
+}
+
+.killContainer {
+    height: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    background: rgba(0,0,0,0.75);
+    border-radius: 12px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 34px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    margin-bottom: 8px;
+}
+
+.killContainerOwn {
+    height: 34px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float: right;
+    background: rgba(0,0,0,0.75);
+    border-radius: 12px;
+    color: #FFF;
+    font-family: 'Roboto Condensed', sans-serif;
+    line-height: 34px;
+    font-size: 18px;
+    text-align: center;
+    box-shadow:  0 0 10px  rgba(0,0,0,0.6);
+    -moz-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -webkit-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    -o-box-shadow: 0 0 10px  rgba(0,0,0,0.6);
+    margin-bottom: 8px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: red;
+}
+
+.weapon {
+    height: 20px;
+    padding-top: 6px;
+    display: inline;
+    vertical-align: top;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.killer {
+    color: rgb(255, 255, 255);
+}
+
+.killed {
+    color: rgb(255, 0, 0);
+}
+
+.pd {
+    color: #4F9EDE;
+}
+
+.nhs {
+    color: #00D100;
+}
+
+.distance {
+    color: rgb(255, 255, 255);
+    font-weight: bolder;
+}
+
+.clear {
+    clear:both
+}
